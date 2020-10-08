@@ -105,7 +105,7 @@
             font-weight: 400;
             font-style: normal;
             font-size: 25px;
-            background-image: url(../IMG/dog\ regular-01.svg);
+            background-image: url(../img/dog\ regular-01.svg);
             background-size: 33px 30px;
             background-position-y: center;
             background-position-x: 40px;
@@ -116,7 +116,7 @@
         .walk:hover{
             color: #f9a94b;
             font-size: 25px;
-            background-image: url(../IMG/dog\ regular\ hover-01.svg);
+            background-image: url(../img/dog\ regular\ hover-01.svg);
             background-size: 33px 30px;
             background-position-y: center;
             background-position-x: 40px;
@@ -141,7 +141,7 @@
             font-weight: 400;
             font-style: normal;
             font-size: 25px;
-            background-image: url(../IMG/corgi\ icon\ regular-01.svg);
+            background-image: url(../img/corgi\ icon\ regular-01.svg);
             background-size: 40px 45px;
             background-position-y: center;
             background-position-x: 35px;
@@ -151,7 +151,7 @@
         .corgi:hover{
             color: #f9a94b;
             font-size: 25px;
-            background-image: url(../IMG/corgi\ icon\ hover-01.svg);
+            background-image: url(../img/corgi\ icon\ hover-01.svg);
             background-size: 40px 45px;
             background-position-y: center;
             background-position-x: 35px;
@@ -174,7 +174,7 @@
             font-weight: 400;
             font-style: normal;
             font-size: 25px;
-            background-image: url(../IMG/gogo-regular-01.svg);
+            background-image: url(../img/gogo-regular-01.svg);
             background-size: 40px 45px;
             background-position-y: center;
             background-position-x: 35px;
@@ -184,7 +184,7 @@
         .gogo:hover{
             color: #f9a94b;
             font-size: 25px;
-            background-image: url(../IMG/gogo-hover-01.svg);
+            background-image: url(../img/gogo-hover-01.svg);
             background-size: 40px 45px;
             background-position-y: center;
             background-position-x: 35px;
@@ -239,7 +239,7 @@
             padding-top: 50px;
             padding-bottom: 0px;
             text-transform: capitalize;
-            background-image: url(../IMG/sunny.svg);
+            background-image: url(../img/sunny.svg);
             background-size: 35px 35px;
             background-repeat: no-repeat;
             background-position: 180px;
@@ -261,7 +261,7 @@
             padding-top: 50px;
             padding-bottom: 0px;
             text-transform: capitalize;
-            background-image: url(../IMG/cloudy.svg);
+            background-image: url(../img/cloudy.svg);
             background-size: 35px 35px;
             background-repeat: no-repeat;
             background-position: 180px;
@@ -387,7 +387,7 @@
     .corgi_img{
         
 
-        background-image: url(../IMG/sit_down.png);
+        background-image: url(../img/sit_down.png);
         background-repeat: no-repeat;
         background-size: 300px auto;
         background-position-x: center;

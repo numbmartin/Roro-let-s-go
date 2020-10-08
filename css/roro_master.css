@@ -151,7 +151,7 @@ body{
     font-weight: 400;
     font-style: normal;
     font-size: 35px;
-    background-image: url(../IMG/dog\ regular-01.svg);
+    background-image: url(../img/dog\ regular-01.svg);
     background-size: 67px 58px;
     background-position-y: center;
     background-position-x: left;
@@ -162,7 +162,7 @@ body{
 .walk:hover{
     color: #f9a94b;
     font-size: 35px;
-    background-image: url(../IMG/dog\ regular\ hover-01.svg);
+    background-image: url(../img/dog\ regular\ hover-01.svg);
     background-size: 67px 58px;
     background-position-y: center;
     background-position-x: left;
@@ -187,7 +187,7 @@ body{
     font-weight: 400;
     font-style: normal;
     font-size: 35px;
-    background-image: url(../IMG/corgi\ icon\ regular-01.svg);
+    background-image: url(../img/corgi\ icon\ regular-01.svg);
     background-size: 67px 58px;
     background-position-y: center;
     background-position-x: left;
@@ -197,7 +197,7 @@ body{
 .corgi:hover{
     color: #f9a94b;
     font-size: 35px;
-    background-image: url(../IMG/corgi\ icon\ hover-01.svg);
+    background-image: url(../img/corgi\ icon\ hover-01.svg);
     background-size: 67px 58px;
     background-position-y: center;
     background-position-x: left;
@@ -221,7 +221,7 @@ body{
     font-weight: 400;
     font-style: normal;
     font-size: 35px;
-    background-image: url(../IMG/gogo-regular-01.svg);
+    background-image: url(../img/gogo-regular-01.svg);
     background-size: 67px 58px;
     background-position-y: center;
     background-position-x: left;
@@ -231,7 +231,7 @@ body{
 .gogo:hover{
     color: #f9a94b;
     font-size: 35px;
-    background-image: url(../IMG/gogo-hover-01.svg);
+    background-image: url(../img/gogo-hover-01.svg);
     background-size: 67px 58px;
     background-position-y: center;
     background-position-x: left;
@@ -293,7 +293,7 @@ body{
     padding-top: 50px;
     padding-bottom: 0px;
     text-transform: capitalize;
-    background-image: url(../IMG/sunny.svg);
+    background-image: url(../img/sunny.svg);
     background-size: 65px 65px;
     background-repeat: no-repeat;
     background-position: 340px;
@@ -314,7 +314,7 @@ body{
     padding-top: 50px;
     padding-bottom: 0px;
     text-transform: capitalize;
-    background-image: url(../IMG/cloudy.svg);
+    background-image: url(../img/cloudy.svg);
     background-size: 65px 65px;
     background-repeat: no-repeat;
     background-position: 340px;
