@@ -1,0 +1,400 @@
+@media only screen and (max-width: 600px) {
+    /* your tyles here */
+    body {
+        background-color: #f2f2f2;
+      }
+
+      .to-hide{
+          display: none;
+      }
+
+      .title{
+        margin: 0px;
+        
+        color:#f9a94b ;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+        font-family: marvin-round,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 34px;
+        }
+
+        
+      .title_1{
+        margin: 0px;
+        text-align: center;
+        
+        color:#f9a94b ;
+        padding-left: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+        font-family: marvin-round,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 34px;
+        }
+
+        
+
+        .walk_layout{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            grid-template-areas: 
+            "walk_details"
+            ;
+            margin-top: 30px;
+        }
+
+        .weather_layout{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: 
+            "weather_details"
+            "dog_artwork"
+            ;
+        
+        }
+
+        .weather_details{
+            
+            margin-top: -50px;
+            max-height: 300px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: 
+            "current_weather"
+            "future_weather";
+            
+        }
+
+        .bottom_nav{
+            max-height: 100px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: 
+            "walk"  
+            "corgi";
+            
+        }
+
+        .bottom_nav_2{
+            max-height: 100px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr ;
+            grid-template-areas: 
+            "gogo"
+            "walk";
+            
+        }
+
+        .walk{
+            color: #8e8e8e;
+            padding: 30px 30px 30px 90px;
+            text-decoration: none;
+            text-align: center;
+            font-family: marvin-round,sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 25px;
+            background-image: url(../IMG/dog\ regular-01.svg);
+            background-size: 33px 30px;
+            background-position-y: center;
+            background-position-x: 40px;
+            background-repeat: no-repeat;
+        
+        }
+
+        .walk:hover{
+            color: #f9a94b;
+            font-size: 25px;
+            background-image: url(../IMG/dog\ regular\ hover-01.svg);
+            background-size: 33px 30px;
+            background-position-y: center;
+            background-position-x: 40px;
+            background-repeat: no-repeat;
+            text-decoration: none;
+        
+        }
+        
+        .corgi_text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+        .corgi{
+            color: #8e8e8e;
+            padding: 30px 30px 30px 90px;
+            text-decoration: none;
+            text-align: center;
+            font-family: marvin-round,sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 25px;
+            background-image: url(../IMG/corgi\ icon\ regular-01.svg);
+            background-size: 40px 45px;
+            background-position-y: center;
+            background-position-x: 35px;
+            background-repeat: no-repeat;
+        }
+
+        .corgi:hover{
+            color: #f9a94b;
+            font-size: 25px;
+            background-image: url(../IMG/corgi\ icon\ hover-01.svg);
+            background-size: 40px 45px;
+            background-position-y: center;
+            background-position-x: 35px;
+            background-repeat: no-repeat;
+            text-decoration: none;
+        }
+
+        .gogo_text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .gogo{
+            color: #8e8e8e;
+            padding: 30px 30px 30px 90px;
+            text-decoration: none;
+            text-align: center;
+            font-family: marvin-round,sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 25px;
+            background-image: url(../IMG/gogo-regular-01.svg);
+            background-size: 40px 45px;
+            background-position-y: center;
+            background-position-x: 35px;
+            background-repeat: no-repeat;
+        }
+        
+        .gogo:hover{
+            color: #f9a94b;
+            font-size: 25px;
+            background-image: url(../IMG/gogo-hover-01.svg);
+            background-size: 40px 45px;
+            background-position-y: center;
+            background-position-x: 35px;
+            background-repeat: no-repeat;
+            text-decoration: none;
+        }
+
+        .dog_artwork{
+            
+            
+            
+        }
+
+        
+        
+        .dog_img{
+            
+            
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            
+        }
+
+        .map_img{
+    
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 350px;
+            margin-top: 40px;
+            margin-bottom: 5px;
+        
+        }
+
+        
+
+        .location{
+
+    
+            
+            text-align: center;
+            color: #f9a94b;
+            font-family: filson-soft, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 37px;
+            padding-left: 50px;
+            padding-top: 50px;
+            padding-bottom: 0px;
+            text-transform: capitalize;
+            background-image: url(../IMG/sunny.svg);
+            background-size: 35px 35px;
+            background-repeat: no-repeat;
+            background-position: 180px;
+            background-position-y: 60px;
+            
+        
+        }
+
+        .location_2{
+    
+    
+            text-align: center;
+            color: #f9a94b;
+            font-family: filson-soft, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 37px;
+            padding-left: 50px;
+            padding-top: 50px;
+            padding-bottom: 0px;
+            text-transform: capitalize;
+            background-image: url(../IMG/cloudy.svg);
+            background-size: 35px 35px;
+            background-repeat: no-repeat;
+            background-position: 180px;
+            background-position-y: 60px;
+            
+  
+            
+  
+    }
+    .future_weather{
+        
+        padding-bottom: 0px;
+    }
+    .temp_large{
+        
+        color: #f9a94b ;
+        font-family: filson-soft, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 77px;
+        text-align: center;
+        
+    }
+
+    .time{
+        text-align: center;
+        color: #f9a94b;
+        font-family: filson-soft, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+        
+    
+    }
+    
+    .temp_small{
+        
+        text-align: center;
+        color: #f9a94b;
+        font-family: filson-soft, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 25px;
+        
+    }
+    
+    .temp_walk{
+    
+        text-align: center;
+        color: #f9a94b;
+        font-family: filson-soft, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 38px;
+        margin-top: 0px;
+    }
+    
+    .distance{
+        font-family: filson-soft,sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        text-align: center;
+        font-size: 25px;
+        color: #8e8e8e;
+    }
+    .t1{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:30px;
+    }
+    
+    .t2{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:30px;
+    }
+    .t3{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:30px;
+    }
+    .t4{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:30px;
+    }
+
+    
+
+    .bottom_nav_2{
+        position: relative;
+        top: 650px;
+        
+    }
+    .to-hide_2{
+
+        display: none;
+    }
+
+    .corgi_info{
+        position: absolute;
+        top: 50px;
+        left: 20px;
+        right: 20px;
+    }
+
+    .description{
+        b
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+ 
+    .corgi_img{
+        
+
+        background-image: url(../IMG/sit_down.png);
+        background-repeat: no-repeat;
+        background-size: 300px auto;
+        background-position-x: center;
+        background-position-y: 420px ;
+    }
+     
+
+
+
+}

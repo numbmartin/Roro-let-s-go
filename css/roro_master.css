@@ -1,0 +1,480 @@
+
+body{
+    background: #f2f2f2;
+    
+}
+
+.title{
+    margin: 0px;
+    
+    color:#f9a94b ;
+    padding-left: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-family: marvin-round,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+
+}
+
+.title_1{
+    margin: 0px;
+    position: absolute;
+    color:#f9a94b ;
+    top: 10px;
+    left: 60px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-family: marvin-round,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+
+}
+
+.main_container{
+    max-height: 730px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr 1fr;
+    grid-template-areas: 
+    "weather_layout"
+    "bottom_nav"
+    ;
+}
+
+.main_container_2{
+    max-height: 730px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr 1fr;
+    grid-template-areas: 
+    "walk_details"
+    "bottom_nav"
+    ;
+}
+
+.main_container_3{
+    max-height: 730px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr 1fr;
+    grid-template-areas: 
+    
+    "corgi_info"
+    "bottom_nav_2"
+    ;
+}
+
+.walk_layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "walk_details dog_artwork"
+    ;
+}
+
+.walk_details{
+    
+    
+}
+
+.weather_layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "dog_artwork weather_details"
+    ;
+
+}
+
+.weather_details{
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 2fr;
+    grid-template-areas: 
+    "current_weather"
+    "future_weather";
+    
+}
+
+.future_weather{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "w_1 w_2 w_3 w_4";
+}
+    
+.bottom_nav{
+    max-height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    grid-template-areas: 
+    "walk corgi";
+    text-decoration: none;
+}
+
+.bottom_nav_2{
+    max-height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    grid-template-areas: 
+    "gogo walk";
+    text-decoration: none;
+}
+
+
+.walk_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.walk{
+    color: #8e8e8e;
+    padding: 30px 30px 30px 90px;
+    text-decoration: none;
+    text-align: center;
+    font-family: marvin-round,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    background-image: url(../IMG/dog\ regular-01.svg);
+    background-size: 67px 58px;
+    background-position-y: center;
+    background-position-x: left;
+    background-repeat: no-repeat;
+
+}
+
+.walk:hover{
+    color: #f9a94b;
+    font-size: 35px;
+    background-image: url(../IMG/dog\ regular\ hover-01.svg);
+    background-size: 67px 58px;
+    background-position-y: center;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    text-decoration: none;
+
+}
+
+.corgi_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.corgi{
+    color: #8e8e8e;
+    padding: 30px 30px 30px 90px;
+    text-decoration: none;
+    text-align: center;
+    font-family: marvin-round,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    background-image: url(../IMG/corgi\ icon\ regular-01.svg);
+    background-size: 67px 58px;
+    background-position-y: center;
+    background-position-x: left;
+    background-repeat: no-repeat;
+}
+
+.corgi:hover{
+    color: #f9a94b;
+    font-size: 35px;
+    background-image: url(../IMG/corgi\ icon\ hover-01.svg);
+    background-size: 67px 58px;
+    background-position-y: center;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+
+.gogo_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gogo{
+    color: #8e8e8e;
+    padding: 30px 30px 30px 90px;
+    text-decoration: none;
+    text-align: center;
+    font-family: marvin-round,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    background-image: url(../IMG/gogo-regular-01.svg);
+    background-size: 67px 58px;
+    background-position-y: center;
+    background-position-x: left;
+    background-repeat: no-repeat;
+}
+
+.gogo:hover{
+    color: #f9a94b;
+    font-size: 35px;
+    background-image: url(../IMG/gogo-hover-01.svg);
+    background-size: 67px 58px;
+    background-position-y: center;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+
+
+
+.dog_img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.map_img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.to-hide{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+
+
+}
+
+
+
+
+
+.location{
+    
+    
+    text-align: center;
+    color: #f9a94b;
+    font-family: filson-soft, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 65px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    text-transform: capitalize;
+    background-image: url(../IMG/sunny.svg);
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position: 340px;
+    background-position-y: 65px;
+    
+
+}
+.location_2{
+    
+    
+    text-align: center;
+    color: #f9a94b;
+    font-family: filson-soft, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 65px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    text-transform: capitalize;
+    background-image: url(../IMG/cloudy.svg);
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position: 340px;
+    background-position-y: 60px;
+    
+
+}
+
+.temp_large{
+    
+    color: #f9a94b ;
+    font-family: filson-soft, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 140px;
+    text-align: center;
+    
+}
+
+br{
+    line-height: 0px;
+}
+
+.future_weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+.www{
+    
+    padding-bottom: 80px;
+    margin: 0 8%;
+    text-decoration: none;
+    max-height: 80px;
+    
+}
+
+.time{
+    text-align: center;
+    color: #f9a94b;
+    font-family: filson-soft, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    
+
+}
+
+.temp_small{
+    
+    text-align: center;
+    color: #f9a94b;
+    font-family: filson-soft, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 43px;
+    
+}
+
+.temp_walk{
+    
+    text-align: center;
+    color: #f9a94b;
+    font-family: filson-soft, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 43px;
+    margin-top: 0px;
+}
+
+.distance{
+    font-family: filson-soft,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+    color: #8e8e8e;
+}
+
+.t1{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50px;
+}
+
+.t2{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50px;
+}
+.t3{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50px;
+}
+.t4{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50px;
+}
+
+.corgi_info{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    right: 20px;
+}
+.roro{
+    
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+    
+    margin-top: -200px;
+}
+
+.description{
+
+    padding-left: 50px;
+    padding-top: 20px;
+    max-width: 900px;
+    
+}
+
+.wrapper_2{
+    position: relative;
+}
+
+.bottom_nav_2{
+    position: relative;
+    top: -125px;
+    
+}
+
+h2{
+    color: #f9a94b;
+    font-family: filson-soft,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+
+p{
+    color:#8e8e8e;
+    
+    margin-top: -20px;
+    font-family: filson-soft,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+}
